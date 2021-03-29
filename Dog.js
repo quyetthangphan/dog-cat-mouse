@@ -1,7 +1,8 @@
 function Dog(){
-	this.stomach = [];
+	// this.stomach = [];
 }
 
-Dog.prototype.eat = function(){
-	this.stomach.push(cat);
-}
+// Dog.prototype.eat = function(){
+// 	this.stomach.push(cat);
+// }
+module.exports = Dog;
