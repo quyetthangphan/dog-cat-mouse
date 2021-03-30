@@ -3,11 +3,9 @@ function(){
 } 
 
 Horse.prototype.jump = function() {
-	console.log('Jumped....  ');
+	console.log('Jump.........');
 };
 
-Horse.prototype.run = function() {
-	console.log('Running');
-};
+
 
 module.exports = Horse;
